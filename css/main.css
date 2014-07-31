@@ -1,163 +1,134 @@
-/*universal font*/
+/* {
+  primary dark color rgb(42,42,42);
 
-nav, #home article, #ux article,#one article, #two article, #three article, #four article {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
-  color: white;
+}*/
+
+body {
+	background-color: rgb(42,42,42);
 }
 
 nav {
-  background-color: lightgrey;
+position: absolute;
+top:0;
+right: 0;
 }
 
+nav ul {
+font-family: 'Open Sans', sans-serif;
+color: white;
+padding-right: 7px;
+}
 
 nav li {
-  list-style: none;
-  display: inline-block;
+float: left;
+padding-bottom: 7px;
+padding: 0 20px 10px;
 }
 
-#home { 
-  background: url("http://placekitten.com/1000/1000") 50% 0 repeat fixed; min-height: 1000px; 
-  height: 1000px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
+#about{
+border-width: 110%;
+text-align: center;
+color: rgb(97,97,97);
 }
- 
-#home #profile img {
-  max-width: 50%;
-  border-radius: 100%;
+
+#about article * {
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin: auto;
   
 }
 
-#home article { 
-  height: 458px; 
-  position: absolute; 
-  text-align: center; 
-  top: 5%; 
-  width: 100%; 
-}
- 
-#ux { 
-  background: url("http://placekitten.com/300/300") 50% 0 repeat fixed; min-height: 1000px; 
-  height: 1000px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px;
-  position: relative; 
-  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  box-shadow: 0 0 50px rgba(0,0,0,0.8);
-}
- 
-#ux article { 
-  height: 458px; 
-  position: absolute; 
-  text-align: center; 
-  top: 5%; 
-  width: 100%; 
-
+#welcome {
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 2%;
+	padding-bottom: 5%;
+	padding-left: 4%;
+	padding-right: 4%;
 }
 
-#ux article ul li { 
-padding-top: 5%;
-
-list-style: none;
-display: inline;
-
+#welcome h1 {
+	font-weight: 300;
+	font-size: 2.5em;
+	float: center;
+	color: white;
 }
 
 
-#ux article ul li a { 
-text-decoration: none;
+#about #myface img{
+border-radius: 100%;
+max-width: 300px;
 
 }
 
-#ux article ul li img, #one img { 
-max-width: 75%;
-float: left;
+#myface{
+padding-top: 20px;
+padding-bottom: 20px;
+
 }
 
-#one img {
-  float: center;
-  margin: 10px;
+#portfolio{
+background-color: rgb(255,255,255);
+color: rgb(97,97,97);	
+
 }
 
-#one { 
-  background: url("http://placekitten.com/400/400") 50% 0 repeat fixed; min-height: 1000px; 
-  height: 1000px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
-  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+#portfolio_elements img  {
+	float: left;
+	border-radius: 20px;
+	padding-right:5px;
+	padding-left:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	max-width: 200px;
+
+}
+
+#portfolio_elements{
+	padding-top: 10%;
+	padding-left: 7.5%;
+	
+}
+
+#portfolio_words{
+	clear: both;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	height: 40px;
+	text-align: center;
+}
+
+#portfolio_controls{
+	clear: both;
+	font-family: 'Open Sans', sans-serif;
+	float: right;
+	padding-right: 15%;
+	font-weight: 300;
+	}
+	
+#portfolio_controls ul li {
+	display: inline-block;
+	background-color: rgb(97,97,97);
+	border-radius: 2px;
+	padding: 0 4px 1px;
+	color: white;
+	}
+
+#contact{
+height: 20%;
   text-align: center;
-}
-
-#one article { 
-  height: 458px; 
-  position: absolute; 
-  text-align: center; 
-  top: 150px; 
-  width: 100%; 
-}
-
-#two { 
-  background: url("http://placekitten.com/500/500") 50% 0 repeat fixed; min-height: 1000px; 
-  height: 1000px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
-  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  box-shadow: 0 0 50px rgba(0,0,0,0.8);
-}
-
-#two article { 
-  height: 458px; 
-  position: absolute; 
-  text-align: center; 
-  top: 150px; 
-  width: 100%; 
-}
-
-#three { 
-  background: url("http://placekitten.com/600/600") 50% 0 repeat fixed; min-height: 1000px; 
-  height: 1000px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
-  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  box-shadow: 0 0 50px rgba(0,0,0,0.8);
-}
-
-#three article { 
-  height: 458px; 
-  position: absolute; 
-  text-align: center; 
-  top: 150px; 
-  width: 100%; 
-}
-
-#four { 
-  background: url("http://placekitten.com/800/800") 50% 0 repeat fixed; min-height: 1000px; 
-  height: 1000px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
-  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  background-color: rgb(255,255,255);
+  color: rgb(97,97,97);
+clear: both;
 }
 
 
-#four article { 
-  height: 458px; 
-  position: absolute; 
-  text-align: center; 
-  top: 150px; 
-  width: 100%; 
+#resume{
+height: 20%;
+  text-align: center;
+  background-color: rgb(255,255,255);
+  color: rgb(97,97,97);
+clear: both;
 }
-
