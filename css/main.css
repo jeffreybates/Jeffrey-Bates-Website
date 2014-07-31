@@ -1,98 +1,134 @@
-/*universal font*/
+/* {
+  primary dark color rgb(42,42,42);
 
-nav, #about article, #portfolio article{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  color: white;
+}*/
+
+body {
+	background-color: rgb(42,42,42);
 }
 
 nav {
-  background-color: rgb(42,42,42);
+position: absolute;
+top:0;
+right: 0;
 }
 
+nav ul {
+font-family: 'Open Sans', sans-serif;
+color: white;
+padding-right: 7px;
+}
 
 nav li {
-  list-style: none;
-  display: inline-block;
+float: left;
+padding-bottom: 7px;
+padding: 0 20px 10px;
 }
 
-#about { 
-  background-color: rgb(42,42,42); 
-  height: 568px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
+#about{
+border-width: 110%;
+text-align: center;
+color: rgb(97,97,97);
 }
- 
-#about #myface img {
-  max-width: 50%;
-  border-radius: 100%;
+
+#about article * {
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin: auto;
   
 }
 
-#about article { 
-  height: 458px; 
-  position: absolute; 
-  text-align: center; 
-  top: 5%; 
-  width: 100%; 
-}
- 
- #about article h1 {
-  font-weight: 400;
-font-size: 2.5em;
- }
-
-#portfolio { 
-  background: url("http://fc04.deviantart.net/fs70/f/2014/053/6/5/free_space_galaxy_texture_by_lyshastra-d77gh18.jpg") 50% 0 repeat fixed; min-height: 568px; 
-  height: 568px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px;
-  position: relative; 
-  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  box-shadow: 0 0 50px rgba(0,0,0,0.8);
-}
- 
-#portfolio article { 
-  height: 458px; 
-  position: absolute; 
-  text-align: center; 
-  top: 5%; 
-  width: 100%; 
+#welcome {
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 2%;
+	padding-bottom: 5%;
+	padding-left: 4%;
+	padding-right: 4%;
 }
 
-#portfolio article ul li {
-  list-style: none;
-  display: inlin
+#welcome h1 {
+	font-weight: 300;
+	font-size: 2.5em;
+	float: center;
+	color: white;
 }
 
-#portfolio article ul li img {
-width: 45%;
-max-width: 400px;
-}
 
-#resume {
-  background: url("http://onmyfrontporch.files.wordpress.com/2013/11/texture-8.jpg") 50% 0 repeat fixed; min-height: 568px; 
-  height: 568px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
-   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+#about #myface img{
+border-radius: 100%;
+max-width: 300px;
 
 }
 
-#contact {
-   background: url("http://fc04.deviantart.net/fs70/f/2014/053/6/5/free_space_galaxy_texture_by_lyshastra-d77gh18.jpg") 50% 0 repeat fixed; min-height: 568px; 
-  height: 568px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
-   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+#myface{
+padding-top: 20px;
+padding-bottom: 20px;
 
+}
+
+#portfolio{
+background-color: rgb(255,255,255);
+color: rgb(97,97,97);	
+
+}
+
+#portfolio_elements img  {
+	float: left;
+	border-radius: 20px;
+	padding-right:5px;
+	padding-left:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	max-width: 200px;
+
+}
+
+#portfolio_elements{
+	padding-top: 10%;
+	padding-left: 7.5%;
+	
+}
+
+#portfolio_words{
+	clear: both;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	height: 40px;
+	text-align: center;
+}
+
+#portfolio_controls{
+	clear: both;
+	font-family: 'Open Sans', sans-serif;
+	float: right;
+	padding-right: 15%;
+	font-weight: 300;
+	}
+	
+#portfolio_controls ul li {
+	display: inline-block;
+	background-color: rgb(97,97,97);
+	border-radius: 2px;
+	padding: 0 4px 1px;
+	color: white;
+	}
+
+#contact{
+height: 20%;
+  text-align: center;
+  background-color: rgb(255,255,255);
+  color: rgb(97,97,97);
+clear: both;
+}
+
+
+#resume{
+height: 20%;
+  text-align: center;
+  background-color: rgb(255,255,255);
+  color: rgb(97,97,97);
+clear: both;
 }
