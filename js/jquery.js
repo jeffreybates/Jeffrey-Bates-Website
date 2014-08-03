@@ -44,26 +44,28 @@ $("nav").hide()
 
 
 //about section fading
-$(document).scroll(function ()
-        {
+// $(document).scroll(function ()
+//         {
               
-                $('#about').fadeTo(800, 0.5);
-                       });
+//                 $('#about').fadeTo(800, 0.5);
+//                        });
           
-$(document).scroll(function ()
-        {
+// $(document).scroll(function ()
+//         {
               
-                $('#about').fadeTo(800, 0.5);
-                       });
-$(document).scrollTop(300);
-{
-	 $('#about').fadeTo(800, 1.0);
-}
+//                 $('#about').fadeTo(800, 0.5);
+//                        });
+// $(document).scrollTop(300);
+// {
+// 	 $('#about').fadeTo(800, 1.0);
+// }
 
-$( "#port_1").css("background-color","rgb(255, 103, 96)")
+// 
 
 
 //all
+
+$( "#port_1").css("background-color","rgb(255, 103, 96)")
 
 $( "#port_1").click(function() {
   $( "#portfolio_controls li").css("background-color","rgb(97,97,97)")

@@ -69,8 +69,15 @@ padding-bottom: 20px;
 
 #portfolio{
 background-color: rgb(255,255,255);
+border-radius: 5px;
 color: rgb(97,97,97);	
+}
 
+#portfolio p {
+	clear: both;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 5%;
 }
 
 #portfolio_elements img  {
@@ -85,7 +92,7 @@ color: rgb(97,97,97);
 }
 
 #portfolio_elements{
-	padding-top: 10%;
+	padding-top: 5%;
 	padding-left: 7.5%;
 	
 }
