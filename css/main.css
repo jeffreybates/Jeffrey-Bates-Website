@@ -1,6 +1,7 @@
 /* {
   primary dark color rgb(42,42,42);
 
+ accent color light blue #60f8ff
 }*/
 
 body {
@@ -28,7 +29,7 @@ padding: 0 20px 10px;
 #about{
 border-width: 110%;
 text-align: center;
-color: rgb(97,97,97);
+color: rgb(155,155,155);
 }
 
 #about article * {
@@ -69,43 +70,10 @@ padding-bottom: 20px;
 
 #portfolio{
 background-color: rgb(255,255,255);
-border-radius: 5px;
 color: rgb(97,97,97);	
 }
 
-#portfolio p {
-	clear: both;
-	padding-left: 5%;
-	padding-right: 5%;
-	padding-top: 5%;
-}
 
-#portfolio_elements img  {
-	float: left;
-	border-radius: 20px;
-	padding-right:5px;
-	padding-left:5px;
-	padding-top:5px;
-	padding-bottom:5px;
-	max-width: 200px;
-
-}
-
-#portfolio_elements{
-	padding-top: 5%;
-	padding-left: 7.5%;
-	
-}
-
-#portfolio_words{
-	clear: both;
-	padding-left: 5%;
-	padding-right: 5%;
-	padding-top: 10%;
-	padding-bottom: 10%;
-	height: 40px;
-	text-align: center;
-}
 
 #portfolio_controls{
 	clear: both;
@@ -123,19 +91,59 @@ color: rgb(97,97,97);
 	color: white;
 	}
 
-#contact{
-height: 20%;
-  text-align: center;
-  background-color: rgb(255,255,255);
-  color: rgb(97,97,97);
+
+#resume{
+font-family: 'Open Sans', sans-serif;
+text-align: left;
+background-color: rgb(255,255,255);
+color: rgb(97,97,97);
 clear: both;
+padding-left: 5%;
+padding-right: 5%;
 }
 
 
-#resume{
-height: 20%;
-  text-align: center;
-  background-color: rgb(255,255,255);
-  color: rgb(97,97,97);
+#resume_left h2, #resume_right h2{
+font-weight: 300;
+}
+
+#resume_left h3, #resume_right h3{
+font-weight: 400;
+}
+
+#contact{
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+background-color: rgb(97,97,97);
+color: rgb(155,155,155);
 clear: both;
+padding-bottom: 20px;
+}
+
+#contact a {
+	text-decoration: none;
+color: #60f8ff;
+}
+
+#contact h1{
+	font-size: 3em;
+	color: white;
+	font-weight: 300;
+	padding-top: 1.5%;	
+}
+
+#contact ul {
+	padding-right: 7%;
+}
+
+#contact li{
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+
+
+#contact img{
+	max-width: 20px;
 }

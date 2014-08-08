@@ -1,18 +1,194 @@
-@media screen and (min-width: 640px){
-   #myface, #welcome {
-	max-width: 50%;
-         }
 
-@media screen and (min-width: 640px){
-   #welcome {
-	float: right;
-	padding-top: 7%;
-         }
 
-@media screen and (min-width: 640px){
-   #myface{
-	
-	padding-top: 2%;
-	padding-bottom: 2%;
-         }
+/*my face at the top*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#myface img{	
+min-width: 80%;
+
+}
+}
+
+/*Hi, I'm Jeffrey text, below my face*/
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#welcome h1{
+	font-size: 6.5em;
+}
+}
+/*about text under Hi, I'm Jeffrey*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#welcome p{
+	font-size: 3.3em;
+
+}
+}
+
+
+/*portfolio section*/
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#portfolio_elements img{
+width: 95%;
+text-align: center;
+}}
+
+
+/*section headers*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.section_header{
+	font-family: 'Open Sans',sans-serif;
+	padding-top: 4%;
+	text-align: center;
+	font-size: 6.5em;
+	font-weight: 400;
+	clear: both;
+}}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.section_header h1{
+	font-weight: 300;
+}}
+
+
+/*resume section*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#resume{
+	font-size: 3em;
+}}
+
+
+/*contact section*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#selectsomething{
+	do: something;
+}}
+
+
+
+/*Say Hello contact text*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#contact h1{
+	font-size: 6.5em;
+}}
+
+/*email address*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#contact a{
+	font-size: 3em;
+}}
+
+
+/*social icons*/
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#social img {
+min-width: 60px;
+}}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#social li {
+padding-top: 40px; 
+padding-right: 70px;
+padding-left: 70px;
+padding-bottom: 30px;
+}}
+
+
+/*DESKTOP*/
+
+/*my face*/
+@media only screen and (min-device-width : 1000px) and (max-device-width : 20000px) {
+#myface img {
+float: left;
+padding-left: 60px;
+}}
+
+/*welcome text*/
+@media only screen and (min-device-width : 1000px) and (max-device-width : 20000px) {
+#welcome  {
+display: inline-block;
+max-width: 50%;
+padding-top: 100px;
+}}
+
+
+/*
+portfolio controls*/
+
+@media only screen and (min-device-width : 1000px) and (max-device-width : 20000px) {
+#portfolio_controls {
+padding-top: 20px;
+}}
+
+
+/*portfolio elements*/
+
+@media only screen and (min-device-width : 1000px) and (max-device-width : 20000px) {
+#portfolio_elements li{
+margin-top: 10px;
+border-radius: 20px;
+border-style: dotted;
+margin-right: 5px;
+margin-left: 5px;
+}}
+
+
+/*section header*/
+
+@media only screen and (min-device-width : 1000px) and (max-device-width : 20000px) {
+.section_header h1 {
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+font-size: 3em;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 5px;
+clear: both;
+}}
+
+/*portfolio elements*/
+
+@media only screen and (min-device-width : 1000px) and (max-device-width : 20000px) {
+#portfolio_elements img {
+max-width: 200px;
+}}
+
+@media only screen and (min-device-width : 1000px) and (max-device-width : 20000px) {
+#portfolio_elements li {
+display: inline-block;
+padding-right: 60px;
+padding-left: 60px;
+padding-top: 5px;
+}}
+
+
+/*resume left*/
+
+@media only screen and (min-device-width : 1000px) and (max-device-width : 20000px) {
+#resume_left {
+float: left;
+max-width: 40%;
+}}
+
+/*resume right*/
+@media only screen and (min-device-width : 1000px) and (max-device-width : 20000px) {
+#resume_right {
+float: right;
+max-width: 50%;
+}}
+
+/*COMMENT*/
+@media only screen and (min-device-width : 1000px) and (max-device-width : 20000px) {
+#social {
+padding-top: 40px;
+}}
+
+
+
 

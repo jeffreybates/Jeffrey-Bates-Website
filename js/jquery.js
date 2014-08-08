@@ -1,3 +1,9 @@
+// scroll to bottom
+
+// $(window).load(function(){
+//     $("html,body").scrollTop(55);
+// });
+
 
 //clean all lists
 $( "li" ).css("list-style" , "none");
@@ -6,7 +12,7 @@ $( "li" ).css("list-style" , "none");
 //show/hide filtering
 
 $(window).width(function(){
-    if($(window).width()< 640){
+    if($(window).width()< 1000){
 $("#portfolio_controls").hide()
     }else{
  $("#portfolio_controls").show()  
@@ -14,7 +20,7 @@ $("#portfolio_controls").hide()
 });
 
 $(window).resize(function(){
-    if($(window).width()< 640){
+    if($(window).width()< 1000){
 $("#portfolio_controls").hide()
     }else{
  $("#portfolio_controls").show()  
@@ -25,7 +31,7 @@ $("#portfolio_controls").hide()
 //navigation
 //show/hide navigation
 $(window).width(function(){
-    if($(window).width()< 640){
+    if($(window).width()< 1000){
 $("nav").hide()
     }else{
  $("nav").show()  
@@ -33,10 +39,30 @@ $("nav").hide()
 });
 
 $(window).resize(function(){
-    if($(window).width()< 640){
+    if($(window).width()< 1000){
 $("nav").hide()
     }else{
  $("nav").show()  
+
+    }
+});
+
+
+//mail icon
+//show/hide mail icon
+$(window).width(function(){
+    if($(window).width()< 1000){
+$("#contacts img").hide()
+    }else{
+ $("#contacts img").show()  
+    }
+});
+
+$(window).resize(function(){
+    if($(window).width()< 1000){
+$("#contacts img").hide()
+    }else{
+ $("#contacts img").show()  
 
     }
 });
@@ -65,11 +91,11 @@ $("nav").hide()
 
 //all
 
-$( "#port_1").css("background-color","rgb(255, 103, 96)")
+$( "#port_1").css("background-color","#60f8ff")
 
 $( "#port_1").click(function() {
   $( "#portfolio_controls li").css("background-color","rgb(97,97,97)")
-  $( "#port_1").css("background-color","rgb(255, 103, 96)")
+  $( "#port_1").css("background-color","#60f8ff")
   $( "#elem_1").show()
   $( "#elem_2").show()
   $( "#elem_3").show()
@@ -81,46 +107,50 @@ $( "#port_1").click(function() {
 
 $( "#port_2").click(function() {
 $( "#portfolio_controls li").css("background-color","rgb(97,97,97)")
-  $( "#port_2").css("background-color","rgb(255, 103, 96)")
-  $( "#elem_1").hide()
+  $( "#port_2").css("background-color","#60f8ff")
+  $( "#elem_1").show()
   $( "#elem_2").show()
-  $( "#elem_3").hide()
+  $( "#elem_3").show()
   $( "#elem_4").hide()
   $( "#elem_5").hide()
+  $( "#elem_6").hide()
 });
 
 //web
 
 $( "#port_3").click(function() {
 $( "#portfolio_controls li").css("background-color","rgb(97,97,97)")
-  $( "#port_3").css("background-color","rgb(255, 103, 96)")
+  $( "#port_3").css("background-color","#60f8ff")
   $( "#elem_1").hide()
   $( "#elem_2").hide()
-  $( "#elem_3").show()
-  $( "#elem_4").hide()
+  $( "#elem_3").hide()
+  $( "#elem_4").show()
   $( "#elem_5").hide()
+  $( "#elem_6").hide()
 });
 
 //photography
 
 $( "#port_4").click(function() {
   $( "#portfolio_controls li").css("background-color","rgb(97,97,97)")
-  $( "#port_4").css("background-color","rgb(255, 103, 96)")
+  $( "#port_4").css("background-color","#60f8ff")
   $( "#elem_1").hide()
   $( "#elem_2").hide()
   $( "#elem_3").hide()
-  $( "#elem_4").show()
-  $( "#elem_5").hide()
+  $( "#elem_4").hide()
+  $( "#elem_5").show()
+  $( "#elem_6").hide()
 });
 
 //illustration
 
 $( "#port_5").click(function() {
  $( "#portfolio_controls li").css("background-color","rgb(97,97,97)")
-  $( "#port_5").css("background-color","rgb(255, 103, 96)")
+  $( "#port_5").css("background-color","#60f8ff")
   $( "#elem_1").hide()
   $( "#elem_2").hide()
   $( "#elem_3").hide()
   $( "#elem_4").hide()
-  $( "#elem_5").show()
+  $( "#elem_5").hide()
+  $( "#elem_6").show()
 });
