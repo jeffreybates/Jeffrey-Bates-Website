@@ -1,0 +1,94 @@
+
+
+/*my face at the top*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#myface img{	
+min-width: 80%;
+
+}
+}
+
+/*Hi, I'm Jeffrey text, below my face*/
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#welcome h1{
+	font-size: 6.5em;
+}
+}
+/*about text under Hi, I'm Jeffrey*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#welcome p{
+	font-size: 3.3em;
+
+}
+}
+
+
+/*portfolio section*/
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#portfolio_elements img{
+width: 100%;
+}}
+
+
+/*section headers*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.section_header{
+	font-family: 'Open Sans',sans-serif;
+	padding-top: 4%;
+	font-size: 6.5em;
+	font-weight: 400;
+	clear: both;
+}}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.section_header h1{
+	font-weight: 300;
+}}
+
+
+/*resume section*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#resume{
+	font-size: 3em;
+}}
+
+
+/*contact section*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#selectsomething{
+	do: something;
+}}
+
+
+
+/*Say Hello contact text*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#contact h1{
+	font-size: 6.5em;
+}}
+
+/*email address*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#contact a{
+	font-size: 3em;
+}}
+
+
+/*social icons*/
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#social {
+	background-color: blue;
+
+}}
+x
+
+/*desktop*/
+

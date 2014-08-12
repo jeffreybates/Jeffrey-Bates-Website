@@ -70,10 +70,18 @@ padding-bottom: 20px;
 
 #portfolio{
 background-color: rgb(255,255,255);
-color: rgb(97,97,97);	
+color: rgb(97,97,97);
 }
 
+#portfolio ul{
+text-align: center;	
+}
 
+#portfolio_elements a{
+text-decoration: none;
+font-size: 1.75em;
+color: rgb(42,42,42); 
+}
 
 #portfolio_controls{
 	clear: both;
@@ -105,6 +113,10 @@ padding-right: 5%;
 
 #resume_left h2, #resume_right h2{
 font-weight: 300;
+}
+
+#resume_left ul{
+	text-align: left;
 }
 
 #resume_left h3, #resume_right h3{

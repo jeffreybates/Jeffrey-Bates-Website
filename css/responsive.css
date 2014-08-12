@@ -176,11 +176,18 @@ float: left;
 max-width: 40%;
 }}
 
+@media only screen and (min-device-width : 1000px) and (max-device-width : 20000px) {
+#resume_left {
+padding-left: 60px;
+}}
+
 /*resume right*/
 @media only screen and (min-device-width : 1000px) and (max-device-width : 20000px) {
 #resume_right {
 float: right;
 max-width: 50%;
+padding-right: 40px;
+padding-bottom: 40px;
 }}
 
 /*COMMENT*/
