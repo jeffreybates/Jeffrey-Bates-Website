@@ -1,0 +1,147 @@
+
+
+/*MOBILE BEGINS HERE*/
+
+/*mobile template
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+body{background-color: pink;
+}
+}
+*/
+/*
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+body{background-color: pink;
+}
+}*/
+
+/*HIDE NAVIGATION BAR*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+nav ul{
+display: none;
+}
+}
+
+/*HIDE FILTER CONTROLS*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#portfolio_controls ul{
+display: none;
+}
+}
+
+/*MY FACE*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#myface img{
+min-width: 90%;
+max-width: 95%;
+}
+}
+
+/*ABOUT / WELCOME*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#welcome h1 {
+font-size: 7em;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#welcome p {
+font-size: 3em;
+min-width: 90%;
+max-width: 95%;
+}
+}
+
+/*SECTION HEADERS*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.section_header h1 {
+font-size: 8em;
+}
+
+/*PROJECTS/PORTFOLIO*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#portfolio li a {
+font-size: 5em;
+}
+}
+
+/*resume left/right*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#resume_left h2, #resume_right h2 {
+font-size: 6em;
+}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#resume_left h3, #resume_right h3 {
+font-size: 5em;
+}
+}
+
+/*JUST RESUME LEFT*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#resume_left li {
+font-size: 3em;
+}
+}
+
+/*JUST RESUME RIGHT*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#resume_right h3 {
+padding-left: 40px;
+padding-right: 40px;
+}
+}
+
+/*JUST RESUME RIGHT*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#resume_right p {
+font-size: 3em;
+padding-left: 40px;
+padding-right: 40px;
+}
+}
+
+/*JUST RESUME RIGHT*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#resume_right h4 {
+font-size: 3em;
+}
+}
+
+
+/*CONTACT HELLO*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#contact h1 {
+font-size: 7em;
+
+}
+}
+
+/*CONTACT EMAIL*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#contact a {
+font-size: 3em;
+
+}
+}
+
+/*SOCIAL*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#social img {
+width: 100px;
+max-width: 100px;
+}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#social ul {
+padding-top: 20px;
+}
+}

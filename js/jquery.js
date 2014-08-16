@@ -12,7 +12,7 @@ $( "li" ).css("list-style" , "none");
 //show/hide filtering
 
 $(window).width(function(){
-    if($(window).width()< 1000){
+    if($(window).width()< 700){
 $("#portfolio_controls").hide()
     }else{
  $("#portfolio_controls").show()  
@@ -20,7 +20,7 @@ $("#portfolio_controls").hide()
 });
 
 $(window).resize(function(){
-    if($(window).width()< 1000){
+    if($(window).width()< 700){
 $("#portfolio_controls").hide()
     }else{
  $("#portfolio_controls").show()  
@@ -31,7 +31,7 @@ $("#portfolio_controls").hide()
 //navigation
 //show/hide navigation
 $(window).width(function(){
-    if($(window).width()< 1000){
+    if($(window).width()< 700){
 $("nav").hide()
     }else{
  $("nav").show()  
@@ -39,7 +39,7 @@ $("nav").hide()
 });
 
 $(window).resize(function(){
-    if($(window).width()< 1000){
+    if($(window).width()< 700){
 $("nav").hide()
     }else{
  $("nav").show()  
@@ -51,7 +51,7 @@ $("nav").hide()
 //mail icon
 //show/hide mail icon
 $(window).width(function(){
-    if($(window).width()< 1000){
+    if($(window).width()< 700){
 $("#contacts img").hide()
     }else{
  $("#contacts img").show()  
@@ -59,7 +59,7 @@ $("#contacts img").hide()
 });
 
 $(window).resize(function(){
-    if($(window).width()< 1000){
+    if($(window).width()< 700){
 $("#contacts img").hide()
     }else{
  $("#contacts img").show()  

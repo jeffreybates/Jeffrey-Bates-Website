@@ -1,18 +1,14 @@
 // scroll to bottom
 
-$(window).load(function(){
-    $("html,body").scrollTop(55);
-});
 
 
 //clean all lists
 $( "li" ).css("list-style" , "none");
 
-
 //show/hide filtering
 
 $(window).width(function(){
-    if($(window).width()< 1000){
+    if($(window).width()< 700){
 $("#portfolio_controls").hide()
     }else{
  $("#portfolio_controls").show()  
@@ -20,7 +16,7 @@ $("#portfolio_controls").hide()
 });
 
 $(window).resize(function(){
-    if($(window).width()< 1000){
+    if($(window).width()< 700){
 $("#portfolio_controls").hide()
     }else{
  $("#portfolio_controls").show()  
@@ -28,44 +24,6 @@ $("#portfolio_controls").hide()
     }
 });
 
-//navigation
-//show/hide navigation
-$(window).width(function(){
-    if($(window).width()< 1000){
-$("nav").hide()
-    }else{
- $("nav").show()  
-    }
-});
-
-$(window).resize(function(){
-    if($(window).width()< 1000){
-$("nav").hide()
-    }else{
- $("nav").show()  
-
-    }
-});
-
-
-//mail icon
-//show/hide mail icon
-$(window).width(function(){
-    if($(window).width()< 1000){
-$("#contacts img").hide()
-    }else{
- $("#contacts img").show()  
-    }
-});
-
-$(window).resize(function(){
-    if($(window).width()< 1000){
-$("#contacts img").hide()
-    }else{
- $("#contacts img").show()  
-
-    }
-});
 
 
 
@@ -73,17 +31,17 @@ $("#contacts img").hide()
 // $(document).scroll(function ()
 //         {
               
-//                 $('#about').fadeTo(800, 0.5);
+//                 $('#about').fadeTo(700, 0.5);
 //                        });
           
 // $(document).scroll(function ()
 //         {
               
-//                 $('#about').fadeTo(800, 0.5);
+//                 $('#about').fadeTo(700, 0.5);
 //                        });
 // $(document).scrollTop(300);
 // {
-// 	 $('#about').fadeTo(800, 1.0);
+// 	 $('#about').fadeTo(700, 1.0);
 // }
 
 // 

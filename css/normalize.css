@@ -1,43 +1,12 @@
-#welcome h1{
-	font-size: 6.5em;
-
-}
-#welcome p{
-	font-size: 1em;
-
+h1, #welcome,#about,#portfolio,#resume,#contact, #portfolio_elements a, #contact a {
+	color:rgb(42,42,42);
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
 }
 
-#portfolio_elements li{
+h1, #portfolio_elements a, #contact a {
+text-decoration: none;
+list-style: none;
 text-align: center;
 }
 
-#portfolio_elements img{
-display: inline-block;
-max-width: 200px;
-}
-
-
-.section_header h1 {
-font-family: 'Open Sans', sans-serif;
-font-weight: 300;
-font-size: 3em;
-text-align: center;
-padding-top: 20px;
-padding-bottom: 5px;
-clear: both;
-}
-
-#resume_left {
-float: left;
-max-width: 40%;
-}
-
-
-#resume_right {
-float: right;
-max-width: 50%;
-}
-
-#social {
-padding-top: 40px;
-}
